@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Copatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale.0">
+        <title>Complete Responsive Food Website Design</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+        <!--font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!--css file link-->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <a href="#" class="logo"><i class="fa-duotone fa-burger-soda"></i>resto.</a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Review</a>
+                <a href="#order">Order</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </header>
+
+        <!--search form-->
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class=" fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <!--home section-->
+        <section class="home" id="home">
+            <div class="swiper mySwiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Our Special Dish</span>
+                            <h3>Spicy Noodles</h3>
+                            <p>These spicy chili garlic noodles are ready in about 15 minutes and FULL of flavor. 
+                                They're gluten free and vegan and deliciously spicy! </p>
+                                <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/spicynoodles.jpg" alt="SpicyNoodles">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Our Special Dish</span>
+                            <h3>Fried Chicken</h3>
+                            <p>Fried Chicken with the crispiest, most flavorful crunchy outside with moist and juicy
+                                 meat on the inside. Prep Time 5 minutes.  </p>
+                                <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/friedchicken.jpg" alt="FriedChicken">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Our Special Dish</span>
+                            <h3>Hot Pizza</h3>
+                            <p> Some of the dishes we serve at Hot Pizza include Sattava Veggie Pizza, Peppery Corn Pizza, 
+                                Flavoursome Chicken Tikka, and more.   </p>
+                                <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/hotpizza.jpg" alt="HotPizza">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <!--dishes section-->
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">Our Dishes</h3>
+            <h1 class="heading">Popular Dishes</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\burger.jpg" alt="burger">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\pasta.jpg" alt="pasta">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$20.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\crispyfriedchicken.jpg" alt="Chicken">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$18.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\submarine.jpg" alt="submarine">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$22.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\biriyani.jpg" alt="biriyani">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$21.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images\nasigorang.jpg" alt="nasigorang">
+                    <h3>Tasty Foods</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$25.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </section>
+
+        <!--about sesction-->
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading">why choose us?</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="images/about.jpg" alt="about">
+                </div>
+                <div class="content">
+                    <h3>best food in the country</h3>
+                    <p>At Resto, we believe the best dishes are the ones that remind you of childhood.
+                    A portion of great food should make you feel like you are wrapped in a warm blanket. </p>
+                    <p> At our location or online, you will find the best dishes you didn't know you craved: extra-creamy
+                     mac and cheese, hot chicken casserole, fried dumplings like your mama makes, and many more. </p>
+                    <p>Forget about the daily stress and come relax with us. After tasting any of our menu items, you will
+                    never want to leave!"</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>easy payments</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                        <a href="#" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--menu section-->
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">our menu</h3>
+            <h1 class="heading">today's special</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images\menu.jpg" alt="menu">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>A chicken sandwich is only as good as its ingredients. That's why we import our spices
+                             and use top-quality ingredients in each of our Nashville Hot Chicken tenders, as well 
+                             as our other offerings.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$12.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/chocolatewaffeles.jpg" alt="chocolatewaffeles">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>These Chocolate Waffles are made with simple pantry staple ingredients for a rich 
+                            chocolate flavored twist on classic this classic breakfast dish! They’re the perfect 
+                            dessert-like breakfast!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$12.50</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/milkshake.jpg" alt="milkshake">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>This milkshakes got it all! It’s also super creamy and thick —everything all good milkshakes
+                             outta be. On top of being super incredibly delicious, this is super fun and easy to make!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$11.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/pumpkinFrenchToast.jpg" alt="pumpkinFrenchToast">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>Pumpkin French toast is ideal for cozy mornings, and it takes just minutes to put together! 
+                            The pumpkin puree adds an even fluffier texture to this popular breakfast, making each bite
+                             irresistibly tender. Combining cinnamon and pumpkin spice spice makes just the right 
+                             warm-spiced flavor (yes, you’ll need both!).</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$10.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/oreoBrownies.jpg" alt="oreoBrownies">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>Deliciously thick and fudgy brownies that are chocolatey rich, and loaded with Oreo cookies!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$9.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blackberriesnCreamDonuts.jpg" alt="blackberriesnCreamDonuts">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>These donuts are a blackberry lovers dream come true! Bake up a batch today</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$8.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/skewers.jpg" alt="skewers">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>These chicken satay skewers are perfect party food.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$10.99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/pizza.jpg" alt="pizza">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some
+                             combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many
+                              other ingredients, baked quickly</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$22.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/nutellaBananaCrepes.jpg" alt="nutellaBananaCrepes">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>delicious food</h3>
+                        <p>chocolate hazelnut spread on top of each crepe, top with sliced banana and strawberries, and fold.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">$12.99</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!--js file link-->
+        <script src="script.js"></script>
+    </body>
+</html>
